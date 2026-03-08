@@ -238,6 +238,11 @@ jupyter notebook
 - `notebooks/03_preprocessing_qa.ipynb` — assignment-ready preprocessing QA
   (source mix, extraction quality, schema checks, split preview)
 
+Presentation note:
+- `notebooks/02_training_eval.ipynb` is the main graph gallery for interview/submission
+  (ROC/PR curves, confusion matrices, confidence distributions, feature importance,
+  source-slice metrics, and sample predictions).
+
 ### Where results are saved
 
 - **Model files**: `models/xgb_<category>.joblib`
@@ -249,6 +254,7 @@ jupyter notebook
   - `data/processed/final_eval/source_macro_metrics.csv`
   - `data/processed/final_eval/sample_predictions.json`
   - `data/processed/final_eval/prediction_table.csv`
+- **Exported figures** (from notebooks): `data/processed/*.png`
 
 ### 10. Run inference on a conversation
 
