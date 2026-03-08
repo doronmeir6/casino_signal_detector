@@ -346,5 +346,3 @@ casino_detector/
 ├── requirements.txt
 └── README.md
 ```
-#   c a s i n o _ s i g n a l _ d e t e c t o r  
- 
