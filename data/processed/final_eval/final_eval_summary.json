@@ -1,0 +1,18 @@
+{
+  "table_csv": "C:\\Users\\USER\\llava_ctr_prediction\\casino_detector\\data\\processed\\training_table.csv",
+  "model_dir": "C:\\Users\\USER\\llava_ctr_prediction\\casino_detector\\models",
+  "test_rows": 200,
+  "threshold": 0.5,
+  "classification": {
+    "macro_f1": 0.89118,
+    "macro_roc_auc": 0.92784,
+    "macro_brier": 0.05858000000000001,
+    "macro_logloss": 0.20948000000000003
+  },
+  "artifacts": {
+    "category_metrics_csv": "C:\\Users\\USER\\llava_ctr_prediction\\casino_detector\\data\\processed\\final_eval\\category_metrics.csv",
+    "source_macro_metrics_csv": "C:\\Users\\USER\\llava_ctr_prediction\\casino_detector\\data\\processed\\final_eval\\source_macro_metrics.csv",
+    "sample_predictions_json": "C:\\Users\\USER\\llava_ctr_prediction\\casino_detector\\data\\processed\\final_eval\\sample_predictions.json",
+    "prediction_table_csv": "C:\\Users\\USER\\llava_ctr_prediction\\casino_detector\\data\\processed\\final_eval\\prediction_table.csv"
+  }
+}

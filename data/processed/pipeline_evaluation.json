@@ -1,0 +1,36 @@
+{
+  "extraction": {
+    "stats": {
+      "total": 996,
+      "from_cache": 0,
+      "llm_calls": 996,
+      "ok": 996,
+      "schema_failures": 0,
+      "llm_failures": 0,
+      "low_confidence_filtered": 0
+    },
+    "success_rate": 1.0,
+    "label_counts": {
+      "intent": 731,
+      "value": 832,
+      "sentiment": 972,
+      "life_event": 159,
+      "competitive": 127
+    },
+    "failure_reason_counts_sample": {}
+  },
+  "classification": {
+    "macro_f1": 0.89118,
+    "macro_roc_auc": 0.92784,
+    "macro_brier": 0.05858000000000001,
+    "macro_logloss": 0.20948000000000003
+  },
+  "pipeline_summary": {
+    "overall_health": "good",
+    "notes": [
+      "Extraction failure slices are sampled from failure_examples.",
+      "Classification metrics are computed on held-out test split.",
+      "Domain mismatch should be monitored via source-wise metrics."
+    ]
+  }
+}

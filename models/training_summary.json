@@ -1,0 +1,97 @@
+[
+  {
+    "category": "intent",
+    "best_cv_f1": 0.9364,
+    "best_params": {
+      "n_estimators": 115,
+      "max_depth": 7,
+      "learning_rate": 0.07665788170871725,
+      "subsample": 0.7806385987847482,
+      "colsample_bytree": 0.8625803079727365,
+      "min_child_weight": 5,
+      "gamma": 2.6136641469099704,
+      "reg_alpha": 0.013731092468240296,
+      "reg_lambda": 0.0001339971723117974,
+      "scale_pos_weight": 1.0934028484631746
+    },
+    "n_train_pos": 583,
+    "n_train_neg": 213,
+    "n_trials": 60
+  },
+  {
+    "category": "value",
+    "best_cv_f1": 0.9458,
+    "best_params": {
+      "n_estimators": 460,
+      "max_depth": 4,
+      "learning_rate": 0.0184630824661981,
+      "subsample": 0.5260892711407474,
+      "colsample_bytree": 0.5705291646793746,
+      "min_child_weight": 4,
+      "gamma": 1.1161865754107982,
+      "reg_alpha": 0.05752779727917372,
+      "reg_lambda": 0.0065093222895687705,
+      "scale_pos_weight": 0.8514745809794686
+    },
+    "n_train_pos": 663,
+    "n_train_neg": 133,
+    "n_trials": 60
+  },
+  {
+    "category": "sentiment",
+    "best_cv_f1": 0.9866,
+    "best_params": {
+      "n_estimators": 256,
+      "max_depth": 9,
+      "learning_rate": 0.06504856968981275,
+      "subsample": 0.7993292420985183,
+      "colsample_bytree": 0.4936111842654619,
+      "min_child_weight": 2,
+      "gamma": 0.2904180608409973,
+      "reg_alpha": 2.1423021757741068,
+      "reg_lambda": 0.10129197956845731,
+      "scale_pos_weight": 4.394399177878251
+    },
+    "n_train_pos": 775,
+    "n_train_neg": 21,
+    "n_trials": 60
+  },
+  {
+    "category": "life_event",
+    "best_cv_f1": 0.8354,
+    "best_params": {
+      "n_estimators": 186,
+      "max_depth": 7,
+      "learning_rate": 0.045816469972127565,
+      "subsample": 0.8338366369293353,
+      "colsample_bytree": 0.6839547998435909,
+      "min_child_weight": 3,
+      "gamma": 0.0022122852501715723,
+      "reg_alpha": 0.9889935101493468,
+      "reg_lambda": 0.0018848871169116518,
+      "scale_pos_weight": 5.707427095274598
+    },
+    "n_train_pos": 128,
+    "n_train_neg": 668,
+    "n_trials": 60
+  },
+  {
+    "category": "competitive",
+    "best_cv_f1": 0.8385,
+    "best_params": {
+      "n_estimators": 459,
+      "max_depth": 6,
+      "learning_rate": 0.11435656886270906,
+      "subsample": 0.7207743026515061,
+      "colsample_bytree": 0.5196775123424947,
+      "min_child_weight": 3,
+      "gamma": 2.9966871418172474,
+      "reg_alpha": 1.8065368499654262,
+      "reg_lambda": 0.01762250687587906,
+      "scale_pos_weight": 2.7369754528617176
+    },
+    "n_train_pos": 102,
+    "n_train_neg": 694,
+    "n_trials": 60
+  }
+]

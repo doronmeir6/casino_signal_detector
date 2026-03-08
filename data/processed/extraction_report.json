@@ -1,0 +1,25 @@
+{
+  "input_path": "C:\\Users\\USER\\llava_ctr_prediction\\casino_detector\\data\\raw\\conversations_merged.json",
+  "output_jsonl": "C:\\Users\\USER\\llava_ctr_prediction\\casino_detector\\data\\processed\\extractions.jsonl",
+  "cache_path": "C:\\Users\\USER\\llava_ctr_prediction\\casino_detector\\data\\processed\\extraction_cache.jsonl",
+  "model": "gpt-4o-mini",
+  "provider": "openai",
+  "min_parser_confidence": 0.45,
+  "stats": {
+    "total": 996,
+    "from_cache": 0,
+    "llm_calls": 996,
+    "ok": 996,
+    "schema_failures": 0,
+    "llm_failures": 0,
+    "low_confidence_filtered": 0
+  },
+  "label_counts": {
+    "intent": 731,
+    "value": 832,
+    "sentiment": 972,
+    "life_event": 159,
+    "competitive": 127
+  },
+  "failure_examples": []
+}

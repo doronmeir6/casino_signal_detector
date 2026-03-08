@@ -1,0 +1,342 @@
+[
+  {
+    "record_id": "mwz_000479",
+    "source": "multiwoz_2.2",
+    "guest_text": "I need a moderately priced restaurant on the east side of town. Please book a table for two at the Curry Prince on Sunday at 15:45. Thank you. I also need a place to stay. I would like it to be a guesthouse and have a 4 star rating. I would like something moderately priced and include free parking. Yes please book a fo",
+    "ground_truth": {
+      "intent": 1,
+      "value": 1,
+      "sentiment": 1,
+      "life_event": 0,
+      "competitive": 0
+    },
+    "predictions": {
+      "intent": {
+        "confidence": 0.9558,
+        "triggered": true
+      },
+      "value": {
+        "confidence": 0.9413,
+        "triggered": true
+      },
+      "sentiment": {
+        "confidence": 0.9758,
+        "triggered": true
+      },
+      "life_event": {
+        "confidence": 0.0518,
+        "triggered": false
+      },
+      "competitive": {
+        "confidence": 0.0282,
+        "triggered": false
+      }
+    }
+  },
+  {
+    "record_id": "mwz_000423",
+    "source": "multiwoz_2.2",
+    "guest_text": "Hi! I'd like to find a seafood restaurant in the centre of town, please. Is it an expensive restaurant? I'm really looking to break the bank here. Perfect, yes please book a table for 3 people at 17:15 on Monday. Can I also have a reference number? No thank you, that is all I needed.",
+    "ground_truth": {
+      "intent": 1,
+      "value": 1,
+      "sentiment": 1,
+      "life_event": 0,
+      "competitive": 0
+    },
+    "predictions": {
+      "intent": {
+        "confidence": 0.9515,
+        "triggered": true
+      },
+      "value": {
+        "confidence": 0.9372,
+        "triggered": true
+      },
+      "sentiment": {
+        "confidence": 0.9757,
+        "triggered": true
+      },
+      "life_event": {
+        "confidence": 0.045,
+        "triggered": false
+      },
+      "competitive": {
+        "confidence": 0.0357,
+        "triggered": false
+      }
+    }
+  },
+  {
+    "record_id": "mwz_000552",
+    "source": "multiwoz_2.2",
+    "guest_text": "I need a place to dine on expensive crossover food. are you sure? maybe try the centre? Sure, how about Chinese? I really want to eat Chinese in the centre area of town. Are you 100% positive that isn't possible? I'll be heartbroken. Yes, please! There will be 7 of us dining at 13:15 on Friday. Yes if i could get the r",
+    "ground_truth": {
+      "intent": 1,
+      "value": 1,
+      "sentiment": 1,
+      "life_event": 0,
+      "competitive": 0
+    },
+    "predictions": {
+      "intent": {
+        "confidence": 0.9533,
+        "triggered": true
+      },
+      "value": {
+        "confidence": 0.9399,
+        "triggered": true
+      },
+      "sentiment": {
+        "confidence": 0.9754,
+        "triggered": true
+      },
+      "life_event": {
+        "confidence": 0.0634,
+        "triggered": false
+      },
+      "competitive": {
+        "confidence": 0.0286,
+        "triggered": false
+      }
+    }
+  },
+  {
+    "record_id": "conv_0093",
+    "source": "unknown",
+    "guest_text": "I was wondering what the hours of operation are for the high-limit room. Thanks! And do you have any specific rules for the table games? Got it. I appreciate the information.",
+    "ground_truth": {
+      "intent": 0,
+      "value": 0,
+      "sentiment": 1,
+      "life_event": 0,
+      "competitive": 0
+    },
+    "predictions": {
+      "intent": {
+        "confidence": 0.1422,
+        "triggered": false
+      },
+      "value": {
+        "confidence": 0.0681,
+        "triggered": false
+      },
+      "sentiment": {
+        "confidence": 0.9672,
+        "triggered": true
+      },
+      "life_event": {
+        "confidence": 0.0465,
+        "triggered": false
+      },
+      "competitive": {
+        "confidence": 0.0332,
+        "triggered": false
+      }
+    }
+  },
+  {
+    "record_id": "conv_0108",
+    "source": "unknown",
+    "guest_text": "Thank you! I'm looking to book a table at the steakhouse for our anniversary dinner. It's next Saturday. We loved every minute of our last visit, and we can't wait to be back! Also, could you get us tickets to the show afterward? That would be perfect.",
+    "ground_truth": {
+      "intent": 1,
+      "value": 1,
+      "sentiment": 1,
+      "life_event": 1,
+      "competitive": 0
+    },
+    "predictions": {
+      "intent": {
+        "confidence": 0.954,
+        "triggered": true
+      },
+      "value": {
+        "confidence": 0.9325,
+        "triggered": true
+      },
+      "sentiment": {
+        "confidence": 0.9751,
+        "triggered": true
+      },
+      "life_event": {
+        "confidence": 0.965,
+        "triggered": true
+      },
+      "competitive": {
+        "confidence": 0.0479,
+        "triggered": false
+      }
+    }
+  },
+  {
+    "record_id": "mwz_000310",
+    "source": "multiwoz_2.2",
+    "guest_text": "Can you help me find a place to stay that is moderately priced and includes free wifi? Yes, I would prefer it to be in the north. A hotel please. I also need free parking. Can you book a room at the Ashley for me? 5 people, 5 nights, and we'll arrive on Tuesday. Great I also need a train going to cambridge on tuesday a",
+    "ground_truth": {
+      "intent": 1,
+      "value": 1,
+      "sentiment": 1,
+      "life_event": 0,
+      "competitive": 0
+    },
+    "predictions": {
+      "intent": {
+        "confidence": 0.9534,
+        "triggered": true
+      },
+      "value": {
+        "confidence": 0.945,
+        "triggered": true
+      },
+      "sentiment": {
+        "confidence": 0.9748,
+        "triggered": true
+      },
+      "life_event": {
+        "confidence": 0.0615,
+        "triggered": false
+      },
+      "competitive": {
+        "confidence": 0.0353,
+        "triggered": false
+      }
+    }
+  },
+  {
+    "record_id": "mwz_000380",
+    "source": "multiwoz_2.2",
+    "guest_text": "I need a 5 star luxury hotel with a jacuzzi. What about an expensive, 4 star hotel? I guess the centre. Can you reserve 2 nights starting Saturday? There are 8 of us. Yes. Is either one available for just one night? Thank you, that is all I need. Toodles.",
+    "ground_truth": {
+      "intent": 1,
+      "value": 1,
+      "sentiment": 1,
+      "life_event": 0,
+      "competitive": 0
+    },
+    "predictions": {
+      "intent": {
+        "confidence": 0.9452,
+        "triggered": true
+      },
+      "value": {
+        "confidence": 0.9334,
+        "triggered": true
+      },
+      "sentiment": {
+        "confidence": 0.9754,
+        "triggered": true
+      },
+      "life_event": {
+        "confidence": 0.0455,
+        "triggered": false
+      },
+      "competitive": {
+        "confidence": 0.0646,
+        "triggered": false
+      }
+    }
+  },
+  {
+    "record_id": "mwz_000259",
+    "source": "multiwoz_2.2",
+    "guest_text": "I am looking for an upscale Chinese food restaurant in Cambridge; can you make a recommendation? I need something in the Center of town. That sounds fine. Can you give me the address and phone number? Yes, I know it would work, I am the one you asked, lol. Can you just give me the address and phone number though? Thank",
+    "ground_truth": {
+      "intent": 0,
+      "value": 0,
+      "sentiment": 1,
+      "life_event": 0,
+      "competitive": 0
+    },
+    "predictions": {
+      "intent": {
+        "confidence": 0.0552,
+        "triggered": false
+      },
+      "value": {
+        "confidence": 0.9025,
+        "triggered": true
+      },
+      "sentiment": {
+        "confidence": 0.9757,
+        "triggered": true
+      },
+      "life_event": {
+        "confidence": 0.0486,
+        "triggered": false
+      },
+      "competitive": {
+        "confidence": 0.0337,
+        "triggered": false
+      }
+    }
+  },
+  {
+    "record_id": "mwz_000060",
+    "source": "multiwoz_2.2",
+    "guest_text": "Hi, I want a moderately priced restaurant located in the south part of town. address and postcode please. No, thank you, goodbye.",
+    "ground_truth": {
+      "intent": 0,
+      "value": 1,
+      "sentiment": 1,
+      "life_event": 0,
+      "competitive": 0
+    },
+    "predictions": {
+      "intent": {
+        "confidence": 0.0327,
+        "triggered": false
+      },
+      "value": {
+        "confidence": 0.9306,
+        "triggered": true
+      },
+      "sentiment": {
+        "confidence": 0.9712,
+        "triggered": true
+      },
+      "life_event": {
+        "confidence": 0.0446,
+        "triggered": false
+      },
+      "competitive": {
+        "confidence": 0.0288,
+        "triggered": false
+      }
+    }
+  },
+  {
+    "record_id": "mwz_000398",
+    "source": "multiwoz_2.2",
+    "guest_text": "I'm looking for a restaurant in the cheap price range and in the north side of town. I am really looking for italian food. Yes, that would be fine. Can you book a table for 4 at 16:00 on Wednesday? Great! Yes, I'll also need to find a hotel with free parking and free wifi. Actually, I apologize for not being more speci",
+    "ground_truth": {
+      "intent": 1,
+      "value": 1,
+      "sentiment": 1,
+      "life_event": 0,
+      "competitive": 0
+    },
+    "predictions": {
+      "intent": {
+        "confidence": 0.9437,
+        "triggered": true
+      },
+      "value": {
+        "confidence": 0.9389,
+        "triggered": true
+      },
+      "sentiment": {
+        "confidence": 0.9755,
+        "triggered": true
+      },
+      "life_event": {
+        "confidence": 0.0483,
+        "triggered": false
+      },
+      "competitive": {
+        "confidence": 0.0298,
+        "triggered": false
+      }
+    }
+  }
+]

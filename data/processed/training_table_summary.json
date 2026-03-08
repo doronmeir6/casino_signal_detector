@@ -1,0 +1,44 @@
+{
+  "input_jsonl": "C:\\Users\\USER\\llava_ctr_prediction\\casino_detector\\data\\processed\\extractions.jsonl",
+  "output_csv": "C:\\Users\\USER\\llava_ctr_prediction\\casino_detector\\data\\processed\\training_table.csv",
+  "rows": 996,
+  "label_counts": {
+    "intent": 731,
+    "value": 832,
+    "sentiment": 972,
+    "life_event": 159,
+    "competitive": 127
+  },
+  "source_counts": {
+    "multiwoz_2.2": 700,
+    "unknown": 296
+  },
+  "feature_columns": [
+    "feat_intent_detected",
+    "feat_intent_confidence",
+    "feat_intent_evidence_len_norm",
+    "feat_value_detected",
+    "feat_value_confidence",
+    "feat_value_evidence_len_norm",
+    "feat_sentiment_detected",
+    "feat_sentiment_confidence",
+    "feat_sentiment_evidence_len_norm",
+    "feat_life_event_detected",
+    "feat_life_event_confidence",
+    "feat_life_event_evidence_len_norm",
+    "feat_competitive_detected",
+    "feat_competitive_confidence",
+    "feat_competitive_evidence_len_norm",
+    "feat_num_detected",
+    "feat_mean_confidence",
+    "feat_max_confidence",
+    "feat_parser_confidence"
+  ],
+  "label_columns": [
+    "label_intent",
+    "label_value",
+    "label_sentiment",
+    "label_life_event",
+    "label_competitive"
+  ]
+}
