@@ -6,6 +6,8 @@ __pycache__/
 .venv/
 venv/
 env/
+.env
+.env.*
 
 # Jupyter
 .ipynb_checkpoints/
@@ -13,6 +15,10 @@ env/
 # IDE
 .idea/
 .vscode/
+.vs/
+
+# Large local/source artifacts (regeneratable)
+models/gguf/
 
 # OS
 .DS_Store
