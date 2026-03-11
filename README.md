@@ -88,13 +88,13 @@ For each conversation, the model returns per-signal confidence:
 ]
 ```
 
-### Multi-Agent Workflow (book-aligned, deterministic)
+### Deterministic Stage Workflow (single LLM extractor)
 
-For interview framing, this can be described as a 3-agent workflow:
+This project uses one LLM-powered extraction stage plus two deterministic stages:
 
-1. **ExtractorAgent**: conversation -> canonical signal JSON  
-2. **ValidatorAgent**: schema + confidence + evidence checks  
-3. **ScorerAgent**: XGBoost calibrated confidence per signal
+1. **ExtractorAgent** (LLM): conversation -> canonical signal JSON  
+2. **ValidatorAgent** (rule-based): schema + confidence + evidence checks  
+3. **ScorerAgent** (XGBoost): calibrated confidence per signal
 
 ```mermaid
 flowchart LR
@@ -105,6 +105,7 @@ flowchart LR
   scorerAgent --> outputJson[StructuredSignalOutput]
 ```
 
+This is agent-style orchestration in one process, not an autonomous multi-agent system.
 Code entrypoint: `src/agent_workflow.py`
 
 ## Quickstart
@@ -283,7 +284,7 @@ Or demo directly:
 python src/predict.py
 ```
 
-Multi-agent workflow demo:
+Deterministic staged workflow demo:
 
 ```bash
 python src/agent_workflow.py
